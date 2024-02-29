@@ -1,19 +1,52 @@
-// 000_P1_Hablar_Usuario.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
+// 000_P1_Hablar_Usuario_.cpp : 
+// Susana Casillas
+// Hablaremos con el usuario 
+// Utilizando los metodos del ISOtream
 
+//Librerias
 #include <iostream>
+//Libreria para incluir diferentes idiomas
+#include <locale>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    //Funcion para tener idioma español soportado
+    setlocale(LC_ALL, "es_MX.UTF-8");
+    std::cout << "ó    ñ   \nSujeto Delta\n" <<
+        "otras cosas" << std::endl;
+    //Sintaxys para hablar con el usuario
+    std::cout << "Todo lo que yo";
+    std::cout << "escriba en las comillas" <<
+        "aparecra en pantalla" << std::endl;
+    // << Concatenara el texto
+    std::cout << "" <<
+        "    _____                                      _____" <<
+        "   , 888888b.                                 , 888888b." <<
+        ".d888888888b.                                d888888888b" <<
+        " _.. - '.`*'_, 88888b                      _.. - '.`*'_, 88888b" <<
+        ", '..-..`''ad88888888b.                    ,'.. - ..`''ad88888888b." <<
+        "   ``-. `*Y888888b.                           ``-. `*Y888888b." <<
+        "  \   `Y888888b.                             \     `Y888888b." <<
+        "   :     Y8888888b.                            :      Y8888888b." <<
+        " :      Y88888888b.                          :       Y88888888b." <<
+        " | _, 8ad88888888.                           | _, 8ad88888888." <<
+        "  :.d88888888888888b.                         : .d88888888888888b." <<
+        " \d888888888888888888                        \d888888888888888888" <<
+        "  8888; '''`88888888888                       8888;ss'`88888888888" <<
+        " 888'     Y8888888888                       888'N""N   Y8888888888" <<
+        " `Y8      :8888888888                       `Y8 N  ''  :8888888888" <<
+        " | `        '8888888888                      `N      '8888888888" <<
+        " |       8888888888                           N       8888888888''<" <<
+        " |      8888888888                            N       8888888888" <<
+        " | , 888888888P                             | N,      888888888P" <<
+        "   :; 888888888'                        :  N    ;888888888'" <<
+        " \      d88888888'                         :  N    ;888888888'" <<
+        " _.>, 888888P'                            \ N    d88888888'" <<
+        "  <, --''`.._>8888(_.                        >N    888888P'  " <<
+        " `>__...--' `''` SSt                       <,--'N`.._>8888(" <<
+        "  `>__N..--' `''` SSt      " <<
+        " N";
+
 }
 
-// Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
-// Depurar programa: F5 o menú Depurar > Iniciar depuración
 
-// Sugerencias para primeros pasos: 1. Use la ventana del Explorador de soluciones para agregar y administrar archivos
-//   2. Use la ventana de Team Explorer para conectar con el control de código fuente
-//   3. Use la ventana de salida para ver la salida de compilación y otros mensajes
-//   4. Use la ventana Lista de errores para ver los errores
-//   5. Vaya a Proyecto > Agregar nuevo elemento para crear nuevos archivos de código, o a Proyecto > Agregar elemento existente para agregar archivos de código existentes al proyecto
-//   6. En el futuro, para volver a abrir este proyecto, vaya a Archivo > Abrir > Proyecto y seleccione el archivo .sln
