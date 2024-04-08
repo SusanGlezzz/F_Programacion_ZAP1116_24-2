@@ -32,7 +32,9 @@ int main()
     std::cout << "Entonces pesas: " << peso << " kilos \n";
     std::cout << std::endl;
 
-    char 
+    char emojis = '0';
+    std::cout << "El valor de la variable caracteres llamda emojis es " << emojis << std::endl; 
+
 
 
 }
