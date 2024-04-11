@@ -34,6 +34,23 @@ int main()
 
     char emojis = '0';
     std::cout << "El valor de la variable caracteres llamda emojis es " << emojis << std::endl; 
+    std::cout << "¿Cuál es tu emoji? \n"; 
+    std::cin >> emojis; 
+    std::cout << std::endl;
+    std::cout << "Entonces tu emoji es: " << emojis << "  \n";
+    std::cout << std::endl;
+
+    char nombre[6];
+    std::cout << "El valor de la variable caracteres llamda nombre es " << nombre << std::endl;
+    std::cout << "¿Cuál es tu nombre? \n";
+    std::cin >> nombre;
+    std::cout << std::endl;
+    std::cout << "Entonces tu nombre es: " << nombre << "  \n";
+    std::cout << std::endl;
+
+    double 
+
+
 
 
 
