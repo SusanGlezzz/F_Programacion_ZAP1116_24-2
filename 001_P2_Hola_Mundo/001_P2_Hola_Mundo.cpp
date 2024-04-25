@@ -5,8 +5,12 @@
 
 
 #include <iostream>
+#include <math.h>
+#include <conio.h>
 #include <string>
 #include <locale>
+
+using namespace std;
 
 int main()
 { //Funcion para tener idioma español soportado
@@ -62,9 +66,11 @@ int main()
     std::getline(std::cin, titulo_libro); 
     std::cout << "Entonces tu libro fav es: " << titulo_libro << ".\n"; 
     std::cout << std::endl;
+   
     //Suma de 2 numeros en impresion 
     int juan = 0;
     int carlos = 0;
+   
     // Realizar operaciones 
     std::cout << "Dame el precio de juan \n";
     std::cin >> juan;
@@ -73,6 +79,7 @@ int main()
     std::cout << std::endl;
     std::cout << "El precio de ambos es: " << juan + carlos; 
     std::cout << std::endl;
+   
     //Resta de 2 numeros guardando el resultado
     int silla = 0; 
     int cama = 0;
@@ -86,10 +93,11 @@ int main()
     resultado_resta = silla - cama;
     std::cout << "El resultado de la resta es: " << resultado_resta; 
     std::cout << std::endl;
-    //Multilicacion de 2 numeros guardar el resulatado
+    
+    //Multiplicacion de 2 numeros guardar el resulatado
     int panes = 0;
     int salchichas = 0;
-    int resultado_multiplicacion = 0;
+    int resultado_multiplicacion = 0; 
     //Solicitar los datos
     std::cout << "Dame el valor de los panes \n";
     std::cin >> panes;
@@ -99,6 +107,7 @@ int main()
     resultado_multiplicacion = panes * salchichas;
     std::cout << " El resultado de la multilicacion es: " << resultado_multiplicacion;
     std::cout << std::endl; 
+    
     //Division de 2 numeros guardar el resultado
     int colegiatura = 0;
     int padre_hija = 0;
@@ -112,7 +121,17 @@ int main()
     std::cout << "El resultado de la division es: " << resultado_division;
     std::cout << std::endl;
 
+    //Raiz de 2 numeros guardar resultado
+    float x = 0, y = 0, resultado = 0;
+    std::cout << " Digite el valor de x: \n";
+    std::cin >> x;
+    std::cout << " Digite el valo de y: \n";
+    std::cin >> y;
+    resultado = (sqrt(x))/(pow(y,2)-1);
+    std::cout << "El resultado es: " << resultado << std::endl;
+    return 0;
 
+    //Potencia de numeros guardar resultado
 
   
 
