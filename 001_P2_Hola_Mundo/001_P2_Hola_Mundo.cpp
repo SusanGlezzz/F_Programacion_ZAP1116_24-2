@@ -132,7 +132,16 @@ int main()
     return 0;
 
     //Potencia de numeros guardar resultado
-
+    int cuchara = 0;
+    int tenedor = 0;
+    std::cout << "Dame el valor del cuchara\n";
+    std::cin >> cuchara;
+    std::cout << "Dame el valor del tenedor\n";
+    std::cin >> tenedor;
+    int resultado_potencia = std::pow(cuchara, tenedor);
+    std::cout << "El resultado de la potencia es:" << resultado_potencia;
+    std::cout << std::endl;
+    std::cout << std::endl;
   
 
     

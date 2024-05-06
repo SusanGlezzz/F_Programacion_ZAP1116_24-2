@@ -1,3 +1,4 @@
 ﻿  001_P2_Hola_Mundo.cpp
-C:\Users\ALUMNO\Desktop\F_Programacion_ZAP1116_24-2\001_P2_Hola_Mundo\001_P2_Hola_Mundo.cpp(129,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\ALUMNO\Desktop\F_Programacion_ZAP1116_24-2\001_P2_Hola_Mundo\001_P2_Hola_Mundo.cpp(130,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\ALUMNO\Desktop\F_Programacion_ZAP1116_24-2\001_P2_Hola_Mundo\001_P2_Hola_Mundo.cpp(141,28): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
   001_P2_Hola_Mundo.vcxproj -> C:\Users\ALUMNO\Desktop\F_Programacion_ZAP1116_24-2\001_P2_Hola_Mundo\Debug\001_P2_Hola_Mundo.exe
